@@ -15,5 +15,10 @@ public class RestEx {
 	{
 		return "Working";
 	}
+	@GetMapping("/automobile")
+	public String automobile()
+	{
+		return "Car is the automobile";
+	}
 
 }
